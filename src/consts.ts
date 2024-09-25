@@ -4,7 +4,7 @@
  * A few of these are not used yet, and are subject to change, example of this is Author.
  */
 export const SITE_METADATA = {
-  theme: "system", // Options: system, light, dark
+  theme: "light", // Options: system, light, dark
   siteUrl: "https://tasb.yon.fun/",
   siteRepo: "https://github.com/wanoo21/tailwind-astro-starting-blog",
   robots: "index, follow", // Options: index, noindex, follow, nofollow
@@ -12,7 +12,7 @@ export const SITE_METADATA = {
   // These are not supported yet
   analytics: {
     fathom: {
-      site: "", // Add your site id here
+      site: "Heck Yeah Dad", // Add your site id here
       src: "https://cdn.usefathom.com/fathom.js",
     },
     googleAnalyticsId: null, // Add your Google Analytics id here
@@ -23,7 +23,7 @@ export const SITE_METADATA = {
     },
     simpleAnalytics: false, // Activate Simple Analytics
     umami: {
-      site: "", // Add your site id here
+      site: "Heck Yeah Dad", // Add your site id here
       dataId: "", // Add your data id here
       host: "/umami.js", // Add your host here
     },
